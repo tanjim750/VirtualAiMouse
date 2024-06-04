@@ -3,7 +3,7 @@ from modules import hand_detector as hd
 from modules import actions
 import pyautogui
 
-wCam,hCam = 680,480
+
 
 cap = cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, wCam)
